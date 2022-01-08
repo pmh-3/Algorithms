@@ -3,6 +3,15 @@
 
 # 1, 1, 2, 3, 5, 8, ...
 
+def fib(self, N: int) -> int:
+    a, b = 0, 1
+    for i in range(N): a, b = b, a + b
+    return a
+
+def fib(self, N: int) -> int:
+    golden_ratio = (1 + (5 ** 0.5)) / 2
+    return int(round((golden_ratio ** N) / (5 ** 0.5)))
+
 def fib(n, memo):
     if memo[n] != null:
         return memo[n]
