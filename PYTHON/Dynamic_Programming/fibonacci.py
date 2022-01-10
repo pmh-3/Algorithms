@@ -2,6 +2,8 @@
 # Those who cannot remember the past are condemned to repeat it
 
 # 1, 1, 2, 3, 5, 8, ...
+# same as number of ways to climb stairs with 1 or 2 steps
+
 
 def fib(self, N: int) -> int:
     a, b = 0, 1
